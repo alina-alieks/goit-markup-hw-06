@@ -61,7 +61,7 @@
       </section>
 
       <!--Section Benefits-->
-      <!-- <section class="section section-benefits">
+      <section class="section section-benefits">
         <div class="container">
           <h2 class="visually-hidden section-title">About us</h2>
           <ul class="benefits-list">
@@ -71,7 +71,7 @@
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="benefits-title">Strategy</h3>
+              <h3 class="benefits-title">strategy</h3>
               <p class="description-benefits">
                 Our goal is to identify the business problem to walk away with the perfect and
                 creative solution.
@@ -83,7 +83,7 @@
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="benefits-title">Punctuality</h3>
+              <h3 class="benefits-title">punctuality</h3>
               <p class="description-benefits">
                 Bring the key message to the brand's audience for the best price within the shortest
                 possible time.
@@ -95,7 +95,7 @@
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="benefits-title">Diligence</h3>
+              <h3 class="benefits-title">diligence</h3>
               <p class="description-benefits">
                 Research and confirm brands that present the strongest digital growth opportunities
                 and minimize risk.
@@ -107,7 +107,7 @@
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="benefits-title">Technologies</h3>
+              <h3 class="benefits-title">technologies</h3>
               <p class="description-benefits">
                 Design practice focused on digital experiences. We bring forth a deep passion for
                 problem-solving.
@@ -115,20 +115,21 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!--Section Team-->
-      <!-- <section class="section section-team">
+      <section class="section section-team">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-item">
               <img
+                class="team-photo-item"
+                srcset="./images/productdes@2x.jpg 2x"
                 src="./images/productdes.jpg"
                 alt="Mark Guerrero product
             designer"
                 width="264"
-                height="260"
               />
               <div class="team-describle">
                 <h3 class="team-name-list">Mark Guerrero</h3>
@@ -168,10 +169,11 @@
 
             <li class="team-item">
               <img
+                class="team-photo-item"
+                srcset="./images/fdev@2x.jpg 2x"
                 src="./images/fdev.jpg"
                 alt="Tom Ford Frontend Developer"
                 width="264"
-                height="260"
               />
               <div class="team-describle">
                 <h3 class="team-name-list">Tom Ford</h3>
@@ -211,10 +213,11 @@
 
             <li class="team-item">
               <img
+                class="team-photo-item"
+                srcset="./images/marketing@2x.jpg 2x"
                 src="./images/marketing.jpg"
                 alt="Camila Garcia marketing"
                 width="264"
-                height="260"
               />
               <div class="team-describle">
                 <h3 class="team-name-list">Camila Garcia</h3>
@@ -253,7 +256,13 @@
             </li>
 
             <li class="team-item">
-              <img src="./images/ui.jpg" alt="Daniel Wilson UI Designer" width="264" height="260" />
+              <img
+                class="team-photo-item"
+                srcset="./images/ui@2x.jpg 2x"
+                src="./images/ui.jpg"
+                alt="Daniel Wilson UI Designer"
+                width="264"
+              />
               <div class="team-describle">
                 <h3 class="team-name-list">Daniel Wilson</h3>
                 <p class="team-profession">UI Designer</p>
@@ -291,20 +300,27 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!--Section Portfolio-->
-      <!-- <section class="section section-portfolio">
+      <section class="section section-portfolio">
         <div class="container">
           <h2 class="section-title">Our Portfolio</h2>
           <ul class="box-portfolio-list">
             <li class="list-portfolio-item">
               <div class="img-portfolio-box">
                 <img
+                  srcset="
+                    ./images/portfolio-mobile/banking-app-mob.jpg    288w,
+                    ./images/portfolio-tablet/banking-app-tab.jpg    356w,
+                    ./images/portfolio/banking-app.jpg               360w,
+                    ./images/portfolio-mobile/banking-app-mob@2x.jpg 576w,
+                    ./images/portfolio-tablet/banking-app-tab@2x.jpg 712w,
+                    ./images/portfolio/banking-app@2x.jpg            720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
                   src="./images/portfolio/banking-app.jpg"
                   alt="Banking App"
-                  width="360"
-                  height="300"
                 />
                 <p class="text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -319,10 +335,17 @@
             <li class="list-portfolio-item">
               <div class="img-portfolio-box">
                 <img
+                  srcset="
+                    ./images/portfolio-mobile/cashless-payment-mob.jpg    288w,
+                    ./images/portfolio-tablet/cashless-payment-tab.jpg    356w,
+                    ./images/portfolio/cashless-payment.jpg               360w,
+                    ./images/portfolio-mobile/cashless-payment-mob@2x.jpg 576w,
+                    ./images/portfolio-tablet/cashless-payment-tab@2x.jpg 712w,
+                    ./images/portfolio/cashless-payment@2x.jpg            720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
                   src="./images/portfolio/cashless-payment.jpg"
                   alt="Cashless Payment"
-                  width="360"
-                  height="300"
                 />
                 <p class="text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -337,10 +360,17 @@
             <li class="list-portfolio-item">
               <div class="img-portfolio-box">
                 <img
+                  srcset="
+                    ./images/portfolio-mobile/meditation-app-mob.jpg    288w,
+                    ./images/portfolio-tablet/meditation-app-tab.jpg    356w,
+                    ./images/portfolio/meditation-app.jpg               360w,
+                    ./images/portfolio-mobile/meditation-app-mob@2x.jpg 576w,
+                    ./images/portfolio-tablet/meditation-app-tab@2x.jpg 712w,
+                    ./images/portfolio/meditation-app@2x.jpg            720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
                   src="./images/portfolio/meditation-app.jpg"
                   alt="Meditation App"
-                  width="360"
-                  height="300"
                 />
                 <p class="text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -355,10 +385,17 @@
             <li class="list-portfolio-item">
               <div class="img-portfolio-box">
                 <img
+                  srcset="
+                    ./images/portfolio-mobile/taxi-service-mob.jpg    288w,
+                    ./images/portfolio-tablet/taxi-service-tab.jpg    356w,
+                    ./images/portfolio/taxi-service.jpg               360w,
+                    ./images/portfolio-mobile/taxi-service-mob@2x.jpg 576w,
+                    ./images/portfolio-tablet/taxi-service-tab@2x.jpg 712w,
+                    ./images/portfolio/taxi-service@2x.jpg            720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
                   src="./images/portfolio/taxi-service.jpg"
                   alt="Taxi Service"
-                  width="360"
-                  height="300"
                 />
                 <p class="text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -373,10 +410,17 @@
             <li class="list-portfolio-item">
               <div class="img-portfolio-box">
                 <img
+                  srcset="
+                    ./images/portfolio-mobile/screen-illustrations-mob.jpg    288w,
+                    ./images/portfolio-tablet/screen-illustrations-tab.jpg    356w,
+                    ./images/portfolio/screen-illustrations.jpg               360w,
+                    ./images/portfolio-mobile/screen-illustrations-mob@2x.jpg 576w,
+                    ./images/portfolio-tablet/screen-illustrations-tab@2x.jpg 712w,
+                    ./images/portfolio/screen-illustrations@2x.jpg            720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
                   src="./images/portfolio/screen-illustrations.jpg"
                   alt="Screen Illustrations"
-                  width="360"
-                  height="300"
                 />
                 <p class="text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -391,10 +435,17 @@
             <li class="list-portfolio-item">
               <div class="img-portfolio-box">
                 <img
+                  srcset="
+                    ./images/portfolio-mobile/online-courses-mob.jpg    288w,
+                    ./images/portfolio-tablet/online-courses-tab.jpg    356w,
+                    ./images/portfolio/online-courses.jpg               360w,
+                    ./images/portfolio-mobile/online-courses-mob@2x.jpg 576w,
+                    ./images/portfolio-tablet/online-courses-tab@2x.jpg 712w,
+                    ./images/portfolio/online-courses@2x.jpg            720w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
                   src="./images/portfolio/online-courses.jpg"
                   alt="Online Courses"
-                  width="360"
-                  height="300"
                 />
                 <p class="text-overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
@@ -408,14 +459,16 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
 
     <!--Footer-->
     <footer class="footer-block">
-      <!-- <div class="container footer-cntainer">
+      <div class="container footer-container">
         <div class="footer-logo-text">
-          <a class="logo" href="./index.html">Web<span class="logo-studio-footer">Studio</span></a>
+          <a class="logo footer-logo" href="./index.html"
+            >Web<span class="logo-studio-footer">Studio</span></a
+          >
           <p class="footer-text">
             Increase the flow of customers and sales for your business with digital marketing &
             growth solutions.
@@ -473,7 +526,7 @@
             </button>
           </form>
         </div>
-      </div> -->
+      </div>
     </footer>
 
     <!-- MOBILE MENU -->
@@ -541,7 +594,7 @@
     </div>
 
     <!-- Modal Window-->
-    <!-- <div class="backdrop is-open">
+    <div class="backdrop is-open">
       <div class="modal-window">
         <button class="button-icon-close" type="button">
           <svg class="icon-close" width="8" height="8">
@@ -624,6 +677,6 @@
           <button class="form-button-send" type="submit">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
   </body>
 </html>
