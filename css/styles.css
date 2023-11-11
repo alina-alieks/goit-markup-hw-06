@@ -1078,6 +1078,8 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     /* ===== HERO DESKTOP STYLES ===== */
     .section-hero {
         padding: 188px 0;
+        margin-left: auto;
+        margin-right: auto;
     }
     .main-title {
     max-width: 496px;
