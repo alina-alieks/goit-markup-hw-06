@@ -736,7 +736,6 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     .mobile-open-btn {
         background-color: transparent;
         padding: 0;
-        margin-right: 15px;
         line-height: 0;
         fill: #2f2f37;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
